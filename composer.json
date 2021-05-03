@@ -1,5 +1,5 @@
 {
-    "name": "aidynmakhataev/laravelsurveyjs",
+    "name": "acengsbn/laravelsurveyjs",
     "description": "Laravel wrapper for surveyjs library",
     "license": "MIT",
     "authors": [
@@ -9,12 +9,13 @@
             "homepage": "https://github.com/AidynMakhataev"
         }
     ],
-    "homepage": "https://github.com/aidynmakhataev/laravelsurveyjs",
+    "homepage": "https://github.com/acengsbn/laravelsurveyjs",
     "keywords": [
         "Laravel", "LaravelSurveyJs", "surveyjs", "survey manager", "laravel survey", "survey editor", "surveyjs builder", "aidynmakhataev"
     ],
     "require": {
-        "illuminate/support": "~5",
+        "php": "^7.2.5|^8.0",
+        "illuminate/support": "^5|^6.0|^7.0|^8.0",
         "cviebrock/eloquent-sluggable": "^4.0"
     },
     "require-dev": {
@@ -23,21 +24,21 @@
     },
     "autoload": {
         "psr-4": {
-            "AidynMakhataev\\LaravelSurveyJs\\": "src/"
+            "AcengSbn\\LaravelSurveyJs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AidynMakhataev\\LaravelSurveyJs\\Tests\\": "tests"
+            "AcengSbn\\LaravelSurveyJs\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AidynMakhataev\\LaravelSurveyJs\\LaravelSurveyJsServiceProvider"
+                "AcengSbn\\LaravelSurveyJs\\LaravelSurveyJsServiceProvider"
             ],
             "aliases": {
-                "LaravelSurveyJs": "AidynMakhataev\\LaravelSurveyJs\\Facades\\LaravelSurveyJs"
+                "LaravelSurveyJs": "AcengSbn\\LaravelSurveyJs\\Facades\\LaravelSurveyJs"
             }
         }
     }
